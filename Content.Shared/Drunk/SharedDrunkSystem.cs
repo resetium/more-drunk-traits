@@ -33,7 +33,7 @@ public abstract partial class SharedDrunkSystem : EntitySystem
         Status.TryAddTime(uid, Drunk, - boozePower);
     }
 
-    private void TryModifyDrunkenness(Entity<DrunkModifierComponent> entity, ref DrunkEvent args)
+    private void TryModifyDrunkenness(Entity<DrunkModifierComponent> entity, ref DrunkEvent args) // Aurora's Song: OnLightweightDrinking>TryModifyDrunkenness
     {
         args.Duration *= entity.Comp.BoozeStrengthMultiplier;
     }

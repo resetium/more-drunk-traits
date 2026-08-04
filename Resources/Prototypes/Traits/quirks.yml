@@ -8,6 +8,8 @@
   components:
   - type: Pacified
 
+# Aurora's Song: move LightweightDrunk to alcohol.yml
+
 - type: trait
   id: Snoring
   name: trait-snoring-name
