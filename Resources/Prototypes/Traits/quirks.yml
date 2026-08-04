@@ -8,14 +8,43 @@
   components:
   - type: Pacified
 
+## Alcohol traits
+
 - type: trait
   id: LightweightDrunk
   name: trait-lightweight-drunk-name # Aurora's Song: lightweight > lightweight-drunk
   description: trait-lightweight-drunk-desc # Aurora's Song: lightweight > lightweight-drunk
   category: Quirks
   components:
-  - type: LightweightDrunk
+  - type: DrunkModifier
     boozeStrengthMultiplier: 2
+
+- type: trait
+  id: HeavyweightDrunk
+  name: trait-heavyweight-drunk-name
+  description: trait-heavyweight-drunk-desc
+  category: Quirks
+  components:
+  - type: DrunkModifier
+    boozeStrengthMultiplier: 0.9
+
+- type: trait
+  id: UltraLightweightDrunk
+  name: trait-ultra-lightweight-drunk-name
+  description: trait-ultra-lightweight-drunk-desc
+  category: Quirks
+  components:
+  - type: DrunkModifier
+    boozeStrengthMultiplier: 4
+
+- type: trait
+  id: AlcoholImmune
+  name: trait-alcohol-immune-name
+  description: trait-alcohol-immune-desc
+  category: Quirks
+  components:
+  - type: DrunkModifier
+    boozeStrengthMultiplier: 0
 
 - type: trait
   id: Snoring

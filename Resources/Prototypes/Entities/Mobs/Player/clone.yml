@@ -27,7 +27,11 @@
   - ImpairedMobility
   # - LegsParalyzed (you get healed)
   - BlackAndWhiteOverlay
+  # alcohol
   - LightweightDrunk
+  - HeavyweightDrunk
+  - UltraLightweightDrunk
+  - AlcoholImmune
   - Muted
   - Narcolepsy
   - Pacified
