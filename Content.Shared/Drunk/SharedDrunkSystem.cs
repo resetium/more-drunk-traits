@@ -12,7 +12,7 @@ public abstract partial class SharedDrunkSystem : EntitySystem
 
     public override void Initialize()
     {
-        SubscribeLocalEvent<DrunkModifierComponent, DrunkEvent>(TryModifyDrunkenness); // Aurora's Song: OnLightweightDrinking>TryModifyDrunkenness
+        SubscribeLocalEvent<LightweightDrunkComponent, DrunkEvent>(OnLightweightDrinking);
     }
 
     public void TryApplyDrunkenness(EntityUid uid, TimeSpan boozePower)
@@ -33,7 +33,7 @@ public abstract partial class SharedDrunkSystem : EntitySystem
         Status.TryAddTime(uid, Drunk, - boozePower);
     }
 
-    private void TryModifyDrunkenness(Entity<DrunkModifierComponent> entity, ref DrunkEvent args) // Aurora's Song: OnLightweightDrinking>TryModifyDrunkenness
+    private void OnLightweightDrinking(Entity<LightweightDrunkComponent> entity, ref DrunkEvent args)
     {
         args.Duration *= entity.Comp.BoozeStrengthMultiplier;
     }

@@ -8,7 +8,7 @@ namespace Content.Shared.Traits.Assorted;
 /// </summary>
 [RegisterComponent, NetworkedComponent]
 [Access(typeof(SharedDrunkSystem))]
-public sealed partial class DrunkModifierComponent : Component // Aurora's Song: LightweightDrunkComponent>DrunkModifierComponent
+public sealed partial class LightweightDrunkComponent : Component
 {
     [DataField("boozeStrengthMultiplier"), ViewVariables(VVAccess.ReadWrite)]
     public float BoozeStrengthMultiplier = 4f;

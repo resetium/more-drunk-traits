@@ -7,7 +7,7 @@
   category: Alcohol
   cost: 1
   components:
-  - type: DrunkModifier
+  - type: LightweightDrunk
     boozeStrengthMultiplier: 2
 
 - type: trait
@@ -17,7 +17,7 @@
   category: Alcohol
   cost: 1
   components:
-  - type: DrunkModifier
+  - type: LightweightDrunk
     boozeStrengthMultiplier: 0.9
 
 - type: trait
@@ -27,7 +27,7 @@
   category: Alcohol
   cost: 1
   components:
-  - type: DrunkModifier
+  - type: LightweightDrunk
     boozeStrengthMultiplier: 4
 
 - type: trait
@@ -37,5 +37,5 @@
   category: Alcohol
   cost: 1
   components:
-  - type: DrunkModifier
+  - type: LightweightDrunk
     boozeStrengthMultiplier: 0
