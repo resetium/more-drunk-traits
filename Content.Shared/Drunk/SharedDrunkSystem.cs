@@ -12,7 +12,7 @@ public abstract partial class SharedDrunkSystem : EntitySystem
 
     public override void Initialize()
     {
-        SubscribeLocalEvent<DrunkModifierComponent, DrunkEvent>(TryModifyDrunkenness);
+        SubscribeLocalEvent<DrunkModifierComponent, DrunkEvent>(TryModifyDrunkenness); // Aurora's Song: OnLightweightDrinking>TryModifyDrunkenness
     }
 
     public void TryApplyDrunkenness(EntityUid uid, TimeSpan boozePower)

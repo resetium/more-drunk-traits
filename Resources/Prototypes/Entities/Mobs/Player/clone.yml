@@ -28,10 +28,7 @@
   # - LegsParalyzed (you get healed)
   - BlackAndWhiteOverlay
   # alcohol
-  - LightweightDrunk
-  - HeavyweightDrunk # Aurora's Song
-  - UltraLightweightDrunk # Aurora's Song
-  - AlcoholImmune # Aurora's Song
+  - DrunkModifier
   - Muted
   - Narcolepsy
   - Pacified
