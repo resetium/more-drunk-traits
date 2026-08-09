@@ -10,9 +10,3 @@
 - type: traitCategory
   id: Quirks
   name: trait-category-quirks
-
-# Aurora's Song: add Alcohol Tolerance trait group
-- type: traitCategory
-  id: Alcohol
-  name: trait-category-alcohol
-  maxTraitPoints: 1
