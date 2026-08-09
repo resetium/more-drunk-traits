@@ -16,17 +16,6 @@ permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($targ
 trait-lightweight-drunk-name = Lightweight drunk
 trait-lightweight-drunk-desc = Alcohol has a stronger effect on you.
 
-# Aurora's Song Start - add more alcohol traits
-trait-heavyweight-drunk-name = Heavyweight drunk
-trait-heavyweight-drunk-desc = Alcohol has a noticeably weaker effect on you. Compared to you, the average drinker is a lightweight.
-
-trait-ultra-lightweight-drunk-name = Extreme lightweight
-trait-ultra-lightweight-drunk-desc = Alcohol has a much stronger effect on you. You are a lightweight among lightweights.
-
-trait-alcohol-immune-name = Alcohol resistant
-trait-alcohol-immune-desc = Alcohol does not get you drunk at all. It can still poison you, though.
-# Aurora's Song End
-
 trait-monochromacy-name = Monochromacy
 trait-monochromacy-desc = You are fully colorblind, everything you perceive ranges from blacks to whites.
 
