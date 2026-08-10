@@ -4,7 +4,7 @@ using Content.Shared.Drunk;
 namespace Content.Shared.Traits.Assorted;
 
 /// <summary>
-/// Used for the lightweight, heavyweight, and alcohol-immune traits. DrunkSystem will check for this component and modify the boozePower accordingly if it finds it.
+/// Used for the lightweight trait. DrunkSystem will check for this component and modify the boozePower accordingly if it finds it.
 /// </summary>
 [RegisterComponent, NetworkedComponent]
 [Access(typeof(SharedDrunkSystem))]
